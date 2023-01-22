@@ -1,0 +1,95 @@
+"""
+Python Intro
+Python User Input
+Python Get Started
+Python Syntax
+Python Comments
+Python Variables
+Python Data Types
+Python Numbers
+Python Casting
+Python Strings
+Python String Formatting
+Python Booleans
+Python Operators
+Python If...Else
+Git
+"""
+if 5 > 2:
+print("Five is greater than two!")
+# print function is to show the result
+
+fruit = "banana"
+# variable name and value for it
+x = 50
+# int x 
+x=y=z=50;
+# for all equal values
+def myfunc():
+  global x
+x = "fantastic"
+# for x belong to the global scope
+str = "hello world"
+# data type is str
+x = 20.5
+# data type float
+x = ["apple", "banana", "cherry"]
+# data type list
+x = ("apple", "banana", "cherry")
+# data type tuple 
+x = {"name" : "Sara", "age" : 18}
+# data type dict
+x = True 
+# bool
+print (len(x))
+# for length of the string
+x = txt[0]
+# for exact character in the string
+x = txt[2:5]
+# characters from n to n
+x = txt.strip()
+# for no whitespace in order
+txt = txt.upper()
+# for upper letters
+txt = txt.lower()
+# for lower letters
+txt = txt.replace("A", "P")
+# for replacing characters in string
+age = 25
+txt = "I am {}"
+print(txt.format(age))
+# placeholder for age parameter
+cars = ["a", "b", "c"]
+print(cars[n])
+# to result word in list
+append("apple")
+# to add for list
+
+ages.insert(1,"25")
+# to add value for exact place in list
+remove("apple")
+# to remove value in list
+# negative value for printing value from the last order such that a([-1])
+len(a)
+# for number of items in the list
+
+# operators for list also fits for tuples
+set.update(new set)
+# for updating the set to new one
+# discard operator for removing item in the set
+a.clear()
+# to empty dictionary
+a = 50
+b = 10
+if a ==b:
+print("Yes")
+else:
+print("No")
+# if else operator
+elif
+# else if operator
+def my_function():
+    # creating new function
+    x = lambda a:a
+    # to take one parameter in function
+    
