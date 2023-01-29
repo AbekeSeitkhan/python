@@ -1,0 +1,120 @@
+"""
+Python lists
+Python Tuples
+Python Sets
+Python Dictionaries
+Python While Loops
+Python For Loops
+"""
+
+# lists
+cars = ["bmw", "opel", "mersedes", "bugatti"]
+print(cars[2])
+# cars[2] in the end printled third item in the list "cars"
+# this function also excepted in tuples
+
+fruits = ["apple", "banana", "cherry"]
+fruits[0] = "kiwi"
+print(fruits)
+# we changed 1st index from apple to kiwi
+
+ages = ["25", "37", "59"]
+ages.append("50")
+print(ages)
+# we add new value for our list
+
+fruits = ['apple', 'banana', 'cherry']
+fruits.insert(1, "orange")
+print(fruits)
+# insert function also addition of element for list, but it also includes the order
+
+fruits = ['apple', 'banana', 'cherry']
+fruits.remove("banana")
+print(fruits)
+#remove function for removing the element in the list
+
+print(fruits[-1])
+# negative index needed to print elements from the end 
+# also excepted in tuples
+
+print(fruits[2:5])
+# 2:5 is to print elements from 3rd to 5th element
+# also excepted in tuples
+
+len(list)
+# to show the number of elements in list
+# also excepted in tuples
+
+fruits = ("apple", "banana", "cherry")
+# This is tuple
+
+fruits = {"apple", "banana", "cherry"}
+if "apple" in fruits:
+ print("Yes, apple is a fruit!")
+# "in" function for checking the element from set
+
+cars= {"opel", "mazda", "lambo"}
+fruits.add("ravon")
+# add function 
+
+fruits = {"apple", "banana", "cherry"}
+more_fruits = ["orange", "mango", "grapes"]
+fruits.update(more_fruits)
+# new set
+
+fruits = {"apple", "banana", "cherry"}
+fruits.remove("banana")
+# to delete banana, also used discard
+# fruits.discard("banana")
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(car.get("year"))
+# to print year of the car dictionary
+
+Dictionary["year"] = 2020
+# to change the value of dictionary
+Dictionary["new item"] = something
+# to add new item to dictionary
+
+car.pop("model")
+# pop method to remove the item in dictionary
+Dictionary.clear()
+# to remove all items in dictionary
+
+#While loop
+i = 1
+while i < 6:
+
+  print(i)
+  i += 1
+  # break function for stop the order
+  # continue function to continue the condition even it could stop 
+  # else for other cases
+
+  fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":continue
+print(x)
+# for function
+for x in range(6):
+  print(x)
+  # range is area of numbers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
